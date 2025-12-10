@@ -20,7 +20,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
     // .allowedOrigins("http://localhost:5173","http://localhost:4173")
      //.allowedOrigins("http://43.200.184.113:5173", "http://43.200.184.113:4173")
       .allowedOrigins("http://13.125.128.10", "https://13.125.128.10:80")
-      .allowedOrigins("http://jinook.kro.kr", "https://jinook.kro.kr")
+      //.allowedOrigins("http://jinook.kro.kr", "https://jinook.kro.kr")
      .allowedMethods("OPTIONS","GET","POST","PUT","DELETE");
   }
 }
