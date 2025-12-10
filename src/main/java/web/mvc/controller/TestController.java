@@ -17,6 +17,6 @@ public class TestController {
         return ResponseEntity
                 .ok()
                 .contentType(MediaType.valueOf("text/plain;charset=UTF-8"))  //
-                .body("CI/CD GitHub Action Slack - spring Security OK 시작! - Terraform 연결..22");
+                .body("CI/CD 정말 재밌다~~ slack도 연결해봤음!");
     }
 }
